@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .App-logo {
@@ -35,4 +38,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+#markdown {
+
+}
+
+#preview, #markdown-section {
+  height: 50vh;
+  width: 50vw;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+#preview {
+  border: 1px solid grey;
+  height: fit-content;
+  height: 40vh;
+  overflow-y: scroll;
 }
